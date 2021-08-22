@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/bg-pattern-top.svg')
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.hero-section {
+    img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        border-radius: 100%;
+        border: 6px solid white;
+        margin-top: -3em;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid lightgrey;
+    .value {
+        justify-content: center;
+        align-items: center;
+    }
+}
